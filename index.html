@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta char="UTF-8"/>
+ <meta name="viewport"content="width-device-width,intial-scale=1.0"/>
+ <title>Event registration form</title>
+</head>
+<body>
+<h1>Event registration form</h1>
+ {%if success %}
+ <p style="color:green">{{success}}</p>
+ {%endif%}
+  <form method="POST"action="/">
+   <label for="name">Name</label><br/>
+   <input type="txt"id="name"name="name"required><br/><br/>
+   <label for="name">Name</label><br/>
+   <input type="email"id="email"name="email"required><br/><br/>
+   <label for="name">Name</label><br/>
+   <input type="phone"id="phone"name="phone"required><br/><br/>
+   <button type="submit">Registration</button>
+  </form>
+</body>
+</html>
+
+
+
+ 
